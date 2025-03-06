@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.left, .right {
+    width: 50%;
+}
+
+.left{
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+img{
+    width: 100px;
+    height: 25vh;
+    
+}
+
+.Odin-logo{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    background-color: black;
+}
+p{
+    color: white;
+    margin-top: 70px;
+}
+.link{
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+}
+
+a{
+    color: white;
+    
+}
