@@ -3,66 +3,144 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #E5E7EB;
+    font-family: Norse-Bold;
 }
+
 .container{
     display: flex;
     height: 100vh;
 }
+
 .left, .right {
     width: 50%;
+    height: 100vh;
 }
 
 .left{
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
 }
+
 img{
     width: 100px;
-    height: 25vh;
-    
+    height: 25vh; 
 }
 
 .Odin-logo{
     display: flex;
     margin-top: 150px;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 .first-p{
+    font-size: 35px;
     color: white;
     margin-top: 70px;
+    font-family: Norse-Bold;
 }
+.first-p1{
+    color: white;
+    font-family: Norse-Bold;
+}
+
 .link{
     position: absolute;
     bottom: 0;
     justify-content: center;
+    margin-left: 200px;
 }
 
 a{
     color: white;
 }
 
+.first-part{
+    height:  25vh;
+    
+}
+
 .second-p{
-    margin-top: 80px;
-    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 20px;
     font-weight: bold;
     
 }
-h1{
+
+h3{
     font-size: 26px;
     margin-bottom: 60px;
+    margin-left: 40px;
+    
 }
-.input-container{
+
+.second{
+    height: 33vh;
     background-color: white;
-    margin-top: 20px;
-    display: flex;
-    gap: 5px;
+    box-shadow: 0px 5px 5px rgb(202, 202, 202);
+    padding: 10px;
 
 }
-.input{
+
+.form-main-div{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%
+    
+}
 
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+input{
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 13px;
+}
+
+.third-part{
+    height: 33vh;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.p-last{
+    margin-top: 30px;
+}
+h2{
+    margin-left: 25px;
+}
+.a{
+    color: #596D48;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
 }
